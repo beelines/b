@@ -1,0 +1,33 @@
+body {
+	background-color: black;
+}
+h1 {
+	font-size: 30px;
+	font-family: 'M PLUS 1p', sans-serif;
+	color: white;
+	text-align: center;
+}
+h2 {
+	font-size: 18px;
+	font-family: 'M PLUS 1p', sans-serif;
+	color: white;
+}
+h3 {
+	font-size: 14px;
+	font-family: 'M PLUS 1p', sans-serif;
+	color: silver;
+	text-align: right;
+}
+a {
+	font-size: 30px;
+	font-family: 'M PLUS 1p', sans-serif;
+	color: white;
+	text-align: center
+	text-decoration: none;
+}
+a2 {
+	font-size: 14px;
+	font-family: 'M PLUS 1p', sans-serif;
+	color: silver;
+	text-align: right;
+}
