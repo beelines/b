@@ -3,7 +3,7 @@ body {
 }
 nav {
 	text-align: center;
-	font-size: 30px;
+	font-size: 32px;
 	font-family: 'M PLUS 1p', sans-serif;
 	color: #F0E5AA;
 	text-align: center
@@ -23,7 +23,7 @@ a:focus {
 	outline-offset: -2px;
 }
 h1 {
-	font-size: 30px;
+	font-size: 28px;
 	font-family: 'M PLUS 1p', sans-serif;
 	color: #F0E5AA;
 	text-align: center;
