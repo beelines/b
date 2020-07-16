@@ -1,22 +1,21 @@
 body {
-	background-color: #19194d;
+	background-color: #8B8378;
 }
 nav {
-	text-align: center;
 	font-size: 32px;
 	font-family: 'M PLUS 1p', sans-serif;
-	color: #F0E5AA;
-	text-align: center
+	color: #E0EEEE;
 	text-decoration: none;
 	font-weight: bold;
+	padding: 30px 10px 10px 50px;
 }
 a {
-	color: #F0E5AA;
+	color: #E0EEEE;
 	text-decoration: none;
 }
 a:hover,
 a:focus {
-	color: #F0E5AA;
+	color: #E0EEEE;
 	text-decoration: underline;
 }
 a:focus {
@@ -26,33 +25,60 @@ a:focus {
 h1 {
 	font-size: 28px;
 	font-family: 'M PLUS 1p', sans-serif;
-	color: #F0E5AA;
-	text-align: center;
-}
-h2 {
-	font-size: 18px;
-	font-family: 'M PLUS 1p', sans-serif;
-	color: #F0E5AA;
+	color: #F0FFFF;
+	text-align: left;
+	padding: 5px 5px 5px 5px;
 	margin-top: 5px;
 	margin-bottom: 5px;
-	margin-right: 150px;
-	margin-left: 150px;
+	margin-right: 1000px;
+	margin-left: 100px;
+}
+h2 {
+	font-size: 28px;
+	font-family: 'M PLUS 1p', sans-serif;
+	color: #F0FFFF;
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 670px;
+	margin-left: 670px;
 }
 h3 {
-	font-size: 14px;
+	font-size: 26px;
 	font-family: 'M PLUS 1p', sans-serif;
-	color: #F0E5AA;
+	color: #F0FFFF;
 	text-align: right;
+}
+article {
+	font-size: 20px;
+	font-family: 'M PLUS 1p', sans-serif;
+	color: #F0FFFF;
+	text-align: left;
+	padding: 5px 5px 5px 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 100px;
+	margin-left: 50px;
 }
 .center {
   display: block;
-  margin-left: auto;
+  margin-left: 105px;
   margin-right: auto;
-  width: 50%;
+}
+.column {
+	float: left;
+	width: 50%;
+}
+.row {
+	content: "";
+	display: table;
+	clear: both;
 }
 footer {
-	font-size: 14px;
+	font-size: 16px;
 	font-family: 'M PLUS 1p', sans-serif;
-	color: #F0E5AA;
+	color: #F0FFFF;
 	text-align: right;
+	padding: 10px 50px 50px 10px;
 }
