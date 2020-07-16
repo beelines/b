@@ -1,84 +1,73 @@
 body {
-	background-color: #8B8378;
-}
+	background-color: #F6F6F6; }
 nav {
 	font-size: 32px;
 	font-family: 'M PLUS 1p', sans-serif;
-	color: #E0EEEE;
+	color: #F6F6F6;
 	text-decoration: none;
 	font-weight: bold;
-	padding: 30px 10px 10px 50px;
-}
-a {
-	color: #E0EEEE;
+	width: 100%;
+	float: left;
+	padding: 0;
+	background-color: #3D3D3D; }
+nav ul {
+	list-style: none;
+	width: 100%;
+	margin: auto;
+	padding: 0; }
+nav li {
+	float: left; }
+nav li a {
+	display: block;
+	padding: 8px 15px;
 	text-decoration: none;
-}
-a:hover,
-a:focus {
-	color: #E0EEEE;
-	text-decoration: underline;
-}
-a:focus {
-	outline: 5px auto -webkit -focus-ring-color;
-	outline-offset: -2px;
-}
+	font-weight: bold;
+	color: #f6f6f6;
+	border-right: 0px solid #F6F6F6; }
+nav li a:hover {
+	color: #f6f6f6;
+	background-color: #646E63; }
 h1 {
 	font-size: 28px;
 	font-family: 'M PLUS 1p', sans-serif;
-	color: #F0FFFF;
+	color: #000000;
 	text-align: left;
-	padding: 5px 5px 5px 5px;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	margin-right: 1000px;
-	margin-left: 100px;
-}
+	padding: 44px 0px 0px 5px; }
 h2 {
 	font-size: 28px;
 	font-family: 'M PLUS 1p', sans-serif;
-	color: #F0FFFF;
+	color: #000000;
 	text-align: center;
 	padding: 5px 5px 5px 5px;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	margin-right: 670px;
-	margin-left: 670px;
-}
+	margin-left: 670px; }
 h3 {
 	font-size: 26px;
 	font-family: 'M PLUS 1p', sans-serif;
-	color: #F0FFFF;
-	text-align: right;
-}
+	color: #000000;
+	text-align: right; }
 article {
 	font-size: 20px;
-	font-family: 'M PLUS 1p', sans-serif;
-	color: #F0FFFF;
+	font-family: 'Sora', sans-serif;
+	color: #000000;
 	text-align: left;
-	padding: 5px 5px 5px 5px;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	margin-right: 100px;
-	margin-left: 50px;
-}
+	padding: 5px 0px 0px 5px; }
 .center {
   display: block;
-  margin-left: 105px;
-  margin-right: auto;
-}
+  margin: -20px 0px 0px 5px;
+  margin-right: auto; }
 .column {
 	float: left;
-	width: 50%;
-}
+	width: 50%; }
 .row {
 	content: "";
 	display: table;
-	clear: both;
-}
+	clear: both; }
 footer {
 	font-size: 16px;
 	font-family: 'M PLUS 1p', sans-serif;
-	color: #F0FFFF;
+	color: #000000;
 	text-align: right;
-	padding: 10px 50px 50px 10px;
-}
+	padding: 50px 5px 5px 5px; }
