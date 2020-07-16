@@ -1,5 +1,5 @@
 body {
-	background-color: #2D1B3B;
+	background-color: #19194d;
 }
 nav {
 	text-align: center;
@@ -33,12 +33,22 @@ h2 {
 	font-size: 18px;
 	font-family: 'M PLUS 1p', sans-serif;
 	color: #F0E5AA;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 150px;
+	margin-left: 150px;
 }
 h3 {
 	font-size: 14px;
 	font-family: 'M PLUS 1p', sans-serif;
 	color: #F0E5AA;
 	text-align: right;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 footer {
 	font-size: 14px;
