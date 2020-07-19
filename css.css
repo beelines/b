@@ -34,31 +34,34 @@ h1 {
 	text-align: left;
 	padding: 44px 0px 0px 5px; }
 h2 {
-	font-size: 28px;
-	font-family: 'M PLUS 1p', sans-serif;
-	color: #000000;
-	text-align: center;
-	padding: 5px 5px 5px 5px;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	margin-right: 670px;
-	margin-left: 670px; }
-h3 {
 	font-size: 26px;
 	font-family: 'M PLUS 1p', sans-serif;
 	color: #000000;
-	text-align: right; }
+	text-align: left;
+	padding: 0px 0px 0px 0px; }
+h3 {
+	font-size: 20px;
+	font-family: 'Sora', sans-serif;
+	color: #000000;
+	text-align: left;
+	padding: 0px 0px 0px 0px; }
 article {
 	font-size: 20px;
 	font-family: 'Sora', sans-serif;
 	color: #000000;
 	text-align: left;
 	padding: 5px 0px 0px 5px; }
+a:visited {
+	color: #965E61; }
+a:hover {
+	color: #965E61; }
+a:active {
+	color: #965E61; }
 .center {
   display: block;
   margin: -20px 0px 0px 5px;
   margin-right: auto;
-  border: 1px solid #965e61; }
+  border: 1px solid #965E61; }
 .column {
 	float: left;
 	width: 50%; }
@@ -70,5 +73,5 @@ footer {
 	font-size: 16px;
 	font-family: 'M PLUS 1p', sans-serif;
 	color: #000000;
-	text-align: right;
+	text-align: left;
 	padding: 50px 5px 5px 5px; }
